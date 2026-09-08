@@ -27,21 +27,16 @@ public final class ItemListBinding implements ViewBinding {
   public final ImageButton btnEdit;
 
   @NonNull
-  public final ImageButton btnView;
-
-  @NonNull
   public final TextView tvListName;
 
   @NonNull
   public final TextView tvTaskCount;
 
   private ItemListBinding(@NonNull LinearLayout rootView, @NonNull ImageButton btnDelete,
-      @NonNull ImageButton btnEdit, @NonNull ImageButton btnView, @NonNull TextView tvListName,
-      @NonNull TextView tvTaskCount) {
+      @NonNull ImageButton btnEdit, @NonNull TextView tvListName, @NonNull TextView tvTaskCount) {
     this.rootView = rootView;
     this.btnDelete = btnDelete;
     this.btnEdit = btnEdit;
-    this.btnView = btnView;
     this.tvListName = tvListName;
     this.tvTaskCount = tvTaskCount;
   }
@@ -85,12 +80,6 @@ public final class ItemListBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.btnView;
-      ImageButton btnView = ViewBindings.findChildViewById(rootView, id);
-      if (btnView == null) {
-        break missingId;
-      }
-
       id = R.id.tvListName;
       TextView tvListName = ViewBindings.findChildViewById(rootView, id);
       if (tvListName == null) {
@@ -103,7 +92,7 @@ public final class ItemListBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ItemListBinding((LinearLayout) rootView, btnDelete, btnEdit, btnView, tvListName,
+      return new ItemListBinding((LinearLayout) rootView, btnDelete, btnEdit, tvListName,
           tvTaskCount);
     }
     String missingId = rootView.getResources().getResourceName(id);

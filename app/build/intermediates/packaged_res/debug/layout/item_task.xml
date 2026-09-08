@@ -6,7 +6,8 @@
     android:gravity="center_vertical"
     android:minHeight="56dp"
     android:paddingStart="16dp"
-    android:paddingEnd="8dp">
+    android:paddingEnd="8dp"
+    android:orientation="horizontal">
 
     <CheckBox
         android:id="@+id/cbTask"
@@ -28,7 +29,7 @@
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:background="?attr/selectableItemBackgroundBorderless"
-        android:src="@android:drawable/ic_menu_edit"
+        android:src="@drawable/ic_edit"
         android:tint="@color/hint"
         android:contentDescription="@string/edit" />
 
@@ -37,7 +38,7 @@
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:background="?attr/selectableItemBackgroundBorderless"
-        android:src="@android:drawable/ic_menu_delete"
+        android:src="@drawable/ic_delete"
         android:tint="@color/hint"
         android:contentDescription="@string/delete" />
 

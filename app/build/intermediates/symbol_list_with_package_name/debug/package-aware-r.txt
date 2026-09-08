@@ -2989,6 +2989,8 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable ic_add
+drawable ic_add_circle
 drawable ic_arrow_back_black_24
 drawable ic_call_answer
 drawable ic_call_answer_low
@@ -2996,8 +2998,12 @@ drawable ic_call_answer_video
 drawable ic_call_answer_video_low
 drawable ic_call_decline
 drawable ic_call_decline_low
+drawable ic_check_circle
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
+drawable ic_delete
+drawable ic_edit
+drawable ic_help
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_foreground
 drawable ic_m3_chip_check
@@ -3007,6 +3013,8 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_playlist_add
+drawable ic_poll
 drawable ic_search_black_24
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
@@ -3144,6 +3152,7 @@ id action_bar_title
 id action_container
 id action_context_bar
 id action_divider
+id action_help
 id action_image
 id action_menu_divider
 id action_menu_presenter
@@ -3183,7 +3192,6 @@ id bounceEnd
 id bounceStart
 id btnDelete
 id btnEdit
-id btnView
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3296,6 +3304,7 @@ id group_divider
 id grouping
 id groups
 id header_title
+id helpProgress
 id hide_ime_id
 id hideable
 id home
@@ -3316,6 +3325,7 @@ id invisible
 id inward
 id italic
 id item_touch_helper_previous_elevation
+id ivHelpIcon
 id jumpToEnd
 id jumpToStart
 id labeled
@@ -3563,7 +3573,12 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tvEmpty
+id tvHelpBody
+id tvHelpStep
+id tvHelpTitle
 id tvListName
+id tvProgress
 id tvTaskCount
 id tvTaskTitle
 id unchecked
@@ -3721,6 +3736,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout dialog_help
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
 layout item_list
@@ -3786,10 +3802,12 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+menu menu_help
 mipmap ic_launcher
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
+plurals task_pending_count
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -3838,22 +3856,28 @@ string cancel
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
+string choose_language
 string clear_text_end_icon_content_description
 string delete
-string delete_list
-string delete_list_confirm
 string edit
 string edit_list
 string edit_task
+string empty_lists
 string empty_tasks
 string error_a11y_label
 string error_icon_content_description
+string error_required
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string help_done
+string help_next
+string help_skip
+string help_step_of
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description
+string list_deleted
 string list_hint
 string m3_exceed_max_badge_text_suffix
 string m3_ref_typeface_brand_medium
@@ -3893,6 +3917,7 @@ string material_timepicker_minute
 string material_timepicker_pm
 string material_timepicker_select_time
 string material_timepicker_text_input_mode_description
+string menu_help
 string mtrl_badge_numberless_content_description
 string mtrl_checkbox_button_icon_path_checked
 string mtrl_checkbox_button_icon_path_group_name
@@ -3962,18 +3987,33 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string progress_concluded
 string save
 string search_menu_title
 string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description
 string searchview_navigation_content_description
+string select
 string side_sheet_accessibility_pane_title
 string side_sheet_behavior
 string status_bar_notification_info_overflow
 string task_deleted
 string task_hint
+string tour_list_1_body
+string tour_list_1_title
+string tour_list_2_body
+string tour_list_2_title
+string tour_list_3_body
+string tour_list_3_title
+string tour_task_1_body
+string tour_task_1_title
+string tour_task_2_body
+string tour_task_2_title
+string tour_task_3_body
+string tour_task_3_title
+string tour_task_4_body
+string tour_task_4_title
 string undo
-string view_tasks
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog
@@ -5245,3 +5285,4 @@ styleable ViewPager2 android_orientation
 styleable ViewStubCompat android_id android_layout android_inflatedId
 styleable ViewTransition android_id SharedValue SharedValueId clearsTag duration ifTagNotSet ifTagSet motionInterpolator motionTarget onStateTransition pathMotionArc setsTag transitionDisable upDuration viewTransitionMode
 styleable include constraintSet
+xml locales_config

@@ -1,8 +1,11 @@
 package pomodoro.cotn
 
+import android.animation.AnimatorSet
+import android.animation.ObjectAnimator
 import android.graphics.Paint
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import android.view.animation.DecelerateInterpolator
 import androidx.recyclerview.widget.RecyclerView
 import pomodoro.cotn.databinding.ItemTaskBinding
 
@@ -29,10 +32,29 @@ class TaskAdapter(
             holder.binding.tvTaskTitle.paintFlags or Paint.STRIKE_THRU_TEXT_FLAG
         else
             holder.binding.tvTaskTitle.paintFlags and Paint.STRIKE_THRU_TEXT_FLAG.inv()
+        holder.binding.tvTaskTitle.alpha = if (task.isDone) 0.5f else 1f
+        holder.binding.cbTask.alpha = if (task.isDone) 0.6f else 1f
+
+        animateItem(holder)
 
         holder.binding.cbTask.setOnCheckedChangeListener { _, _ -> onToggle(task) }
         holder.binding.btnEdit.setOnClickListener { onEdit(task, holder.adapterPosition) }
         holder.binding.btnDelete.setOnClickListener { onDelete(task, holder.adapterPosition) }
+    }
+
+    private fun animateItem(holder: TaskViewHolder) {
+        val view = holder.itemView
+        view.translationX = 60f
+        view.alpha = 0f
+        AnimatorSet().apply {
+            playTogether(
+                ObjectAnimator.ofFloat(view, "translationX", 60f, 0f),
+                ObjectAnimator.ofFloat(view, "alpha", 0f, 1f)
+            )
+            duration = 250
+            interpolator = DecelerateInterpolator()
+            start()
+        }
     }
 
     override fun getItemCount() = tasks.size

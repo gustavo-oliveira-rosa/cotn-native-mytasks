@@ -4,6 +4,7 @@ package pomodoro.cotn.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
@@ -30,13 +31,17 @@ public final class ActivityListsBinding implements ViewBinding {
   @NonNull
   public final MaterialToolbar toolbar;
 
+  @NonNull
+  public final TextView tvEmpty;
+
   private ActivityListsBinding(@NonNull CoordinatorLayout rootView,
       @NonNull FloatingActionButton fab, @NonNull RecyclerView recyclerView,
-      @NonNull MaterialToolbar toolbar) {
+      @NonNull MaterialToolbar toolbar, @NonNull TextView tvEmpty) {
     this.rootView = rootView;
     this.fab = fab;
     this.recyclerView = recyclerView;
     this.toolbar = toolbar;
+    this.tvEmpty = tvEmpty;
   }
 
   @Override
@@ -84,7 +89,14 @@ public final class ActivityListsBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityListsBinding((CoordinatorLayout) rootView, fab, recyclerView, toolbar);
+      id = R.id.tvEmpty;
+      TextView tvEmpty = ViewBindings.findChildViewById(rootView, id);
+      if (tvEmpty == null) {
+        break missingId;
+      }
+
+      return new ActivityListsBinding((CoordinatorLayout) rootView, fab, recyclerView, toolbar,
+          tvEmpty);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

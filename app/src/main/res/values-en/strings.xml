@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Tasks</string>
+    <string name="choose_language">Choose your language</string>
+    <string name="select">Select</string>
+    <string name="new_task">New task</string>
+    <string name="edit_task">Edit task</string>
+    <string name="new_list">New list</string>
+    <string name="edit_list">Edit list</string>
+    <string name="task_hint">Task name</string>
+    <string name="list_hint">List name</string>
+    <string name="add">Add</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="task_deleted">Task removed</string>
+    <string name="list_deleted">List removed</string>
+    <string name="undo">Undo</string>
+    <string name="error_required">Please fill in this field</string>
+    <string name="empty_tasks">No tasks yet</string>
+    <string name="empty_lists">No lists yet</string>
+    <string name="progress_concluded">%1$d of %2$d done</string>
+    <string name="menu_help">How to use</string>
+    <string name="help_skip">Skip</string>
+    <string name="help_next">Next</string>
+    <string name="help_done">Got it</string>
+    <string name="help_step_of">Step %1$d of %2$d</string>
+    <string name="tour_list_1_title">Create lists</string>
+    <string name="tour_list_1_body">Tap the + button to create a new list of tasks.</string>
+    <string name="tour_list_2_title">Open and edit lists</string>
+    <string name="tour_list_2_body">Tap a list to open its tasks. Use the edit and delete icons to change or remove a list.</string>
+    <string name="tour_list_3_title">Delete with a swipe</string>
+    <string name="tour_list_3_body">Swipe the list sideways to quickly delete it. You can undo it right away.</string>
+    <string name="tour_task_1_title">Add tasks</string>
+    <string name="tour_task_1_body">Tap the + button to add tasks to this list.</string>
+    <string name="tour_task_2_title">Complete tasks</string>
+    <string name="tour_task_2_body">Check the box on the left to complete. Completed tasks are crossed out.</string>
+    <string name="tour_task_3_title">Delete with a swipe</string>
+    <string name="tour_task_3_body">Swipe the task sideways to delete it. You can undo it right away.</string>
+    <string name="tour_task_4_title">Track progress</string>
+    <string name="tour_task_4_body">The counter at the top shows how many tasks in this list have been completed.</string>
+    <plurals name="task_pending_count">
+        <item quantity="one">%d pending task</item>
+        <item quantity="other">%d pending tasks</item>
+    </plurals>
+</resources>

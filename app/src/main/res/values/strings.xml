@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">My Tasks</string>
+    <string name="choose_language">Escolha seu idioma</string>
+    <string name="select">Selecionar</string>
     <string name="new_task">Nova tarefa</string>
     <string name="edit_task">Editar tarefa</string>
     <string name="new_list">Nova lista</string>
     <string name="edit_list">Editar lista</string>
-    <string name="delete_list">Excluir lista</string>
-    <string name="delete_list_confirm">Excluir a lista "%s"?</string>
     <string name="task_hint">Nome da tarefa</string>
     <string name="list_hint">Nome da lista</string>
     <string name="add">Adicionar</string>
@@ -15,7 +15,38 @@
     <string name="delete">Excluir</string>
     <string name="edit">Editar</string>
     <string name="task_deleted">Tarefa removida</string>
+    <string name="list_deleted">Lista removida</string>
     <string name="undo">Desfazer</string>
-    <string name="view_tasks">Ver tarefas</string>
+    <string name="error_required">Preencha este campo</string>
     <string name="empty_tasks">Nenhuma tarefa ainda</string>
+    <string name="empty_lists">Nenhuma lista ainda</string>
+    <string name="progress_concluded">%1$d de %2$d concluídas</string>
+    <string name="menu_help">Como usar</string>
+    <string name="help_skip">Pular</string>
+    <string name="help_next">Próximo</string>
+    <string name="help_done">Entendi</string>
+    <string name="help_step_of">Passo %1$d de %2$d</string>
+    <string name="tour_list_1_title">Crie listas</string>
+    <string name="tour_list_1_body">Toque no botão + para criar uma nova lista de tarefas.</string>
+    <string name="tour_list_2_title">Abra e edite listas</string>
+    <string name="tour_list_2_body">Toque em uma lista para abrir as tarefas. Use os ícones de edição e exclusão para alterar ou remover uma lista.</string>
+    <string name="tour_list_3_title">Exclua com um gesto</string>
+    <string name="tour_list_3_body">Deslize a lista para o lado para excluir rapidamente. Dá para desfazer na hora.</string>
+    <string name="tour_task_1_title">Adicione tarefas</string>
+    <string name="tour_task_1_body">Toque no botão + para adicionar tarefas a esta lista.</string>
+    <string name="tour_task_2_title">Conclua tarefas</string>
+    <string name="tour_task_2_body">Marque a caixinha à esquerda para concluir. Tarefas concluídas ficam tachadas.</string>
+    <string name="tour_task_3_title">Exclua com um gesto</string>
+    <string name="tour_task_3_body">Deslize a tarefa para o lado para excluir. Dá para desfazer na hora.</string>
+    <string name="tour_task_4_title">Acompanhe o progresso</string>
+    <string name="tour_task_4_body">O contador no topo mostra quantas tarefas desta lista já foram concluídas.</string>
+    <plurals name="task_pending_count">
+        <item quantity="one">%d tarefa pendente</item>
+        <item quantity="other">%d tarefas pendentes</item>
+    </plurals>
+    <string name="toast_list_created">Lista criada ✓</string>
+    <string name="toast_list_updated">Lista atualizada ✓</string>
+    <string name="toast_task_created">Tarefa adicionada ✓</string>
+    <string name="toast_task_updated">Tarefa atualizada ✓</string>
+    <string name="toast_restored">Restaurado ✓</string>
 </resources>
