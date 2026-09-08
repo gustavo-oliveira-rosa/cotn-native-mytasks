@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Tasks</string>
+    <string name="new_task">Nova tarefa</string>
+    <string name="edit_task">Editar tarefa</string>
+    <string name="new_list">Nova lista</string>
+    <string name="edit_list">Editar lista</string>
+    <string name="delete_list">Excluir lista</string>
+    <string name="delete_list_confirm">Excluir a lista "%s"?</string>
+    <string name="task_hint">Nome da tarefa</string>
+    <string name="list_hint">Nome da lista</string>
+    <string name="add">Adicionar</string>
+    <string name="save">Salvar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="delete">Excluir</string>
+    <string name="edit">Editar</string>
+    <string name="task_deleted">Tarefa removida</string>
+    <string name="undo">Desfazer</string>
+    <string name="view_tasks">Ver tarefas</string>
+    <string name="empty_tasks">Nenhuma tarefa ainda</string>
+</resources>

@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\pomodoro.cotn.app-mergeDebugResources-33:\\layout\\activity_lists.xml",
+        "source": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\pomodoro.cotn.app-main-36:\\layout\\activity_lists.xml"
+    },
+    {
+        "merged": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\pomodoro.cotn.app-mergeDebugResources-33:\\layout\\item_task.xml",
+        "source": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\pomodoro.cotn.app-main-36:\\layout\\item_task.xml"
+    },
+    {
+        "merged": "pomodoro.cotn.app-mergeDebugResources-33:/layout/activity_main.xml",
+        "source": "pomodoro.cotn.app-main-36:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\pomodoro.cotn.app-mergeDebugResources-33:\\layout\\item_list.xml",
+        "source": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\pomodoro.cotn.app-main-36:\\layout\\item_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\pomodoro.cotn.app-mergeDebugResources-33:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\pomodoro.cotn.app-main-36:\\layout\\activity_main.xml"
+    }
+]
