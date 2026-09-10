@@ -24,6 +24,8 @@
     <string name="help_next">Next</string>
     <string name="help_skip">Skip</string>
     <string name="help_step_of">Step %1$d of %2$d</string>
+    <string name="home_description">Manage your tasks simply</string>
+    <string name="home_title">My Lists</string>
     <string name="list_deleted">List removed</string>
     <string name="list_hint">List name</string>
     <string name="menu_help">How to use</string>

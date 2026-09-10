@@ -3,6 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
+        android:id="@+id/action_language"
+        android:title="🇧🇷"
+        app:showAsAction="always" />
+
+    <item
         android:id="@+id/action_help"
         android:icon="@drawable/ic_help"
         android:title="@string/menu_help"

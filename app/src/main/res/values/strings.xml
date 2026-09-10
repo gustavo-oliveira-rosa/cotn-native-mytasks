@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">mytasks</string>
+    <string name="home_title">Minhas Listas</string>
+    <string name="home_description">Gerencie suas tarefas de forma simples</string>
     <string name="choose_language">Escolha seu idioma</string>
     <string name="select">Selecionar</string>
     <string name="new_task">Nova tarefa</string>

@@ -53,8 +53,16 @@ object LanguageHelper {
         resources.updateConfiguration(config, resources.displayMetrics)
     }
 
+    fun getFlagEmoji(context: Context): String {
+        return when (getSaved(context)) {
+            LANG_EN -> "🇺🇸"
+            LANG_ES -> "🇪🇸"
+            else -> "🇧🇷"
+        }
+    }
+
     fun showLanguagePicker(activity: AppCompatActivity) {
-        val names: Array<CharSequence> = arrayOf("Português", "English", "Español")
+        val names: Array<CharSequence> = arrayOf("🇧🇷 Português", "🇺🇸 English", "🇪🇸 Español")
         val codes = arrayOf(LANG_PT, LANG_EN, LANG_ES)
         val current = activity.resources.configuration.locale.language
         var checked = codes.indexOf(current).coerceAtLeast(0)

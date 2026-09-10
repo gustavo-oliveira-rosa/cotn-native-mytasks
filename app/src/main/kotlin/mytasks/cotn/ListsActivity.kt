@@ -33,6 +33,7 @@ class ListsActivity : BaseActivity() {
         binding = ActivityListsBinding.inflate(layoutInflater)
         setContentView(binding.root)
         setSupportActionBar(binding.toolbar)
+        supportActionBar?.title = ""
 
         loadLists()
         setupRecyclerView()
@@ -54,6 +55,11 @@ class ListsActivity : BaseActivity() {
         return true
     }
 
+    override fun onPrepareOptionsMenu(menu: Menu): Boolean {
+        menu.findItem(R.id.action_language)?.title = LanguageHelper.getFlagEmoji(this)
+        return super.onPrepareOptionsMenu(menu)
+    }
+
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         if (item.itemId == R.id.action_help) {
             showHelpTour(
@@ -64,6 +70,10 @@ class ListsActivity : BaseActivity() {
                     HelpStep(R.string.tour_list_3_title, R.string.tour_list_3_body, R.drawable.ic_delete)
                 )
             )
+            return true
+        }
+        if (item.itemId == R.id.action_language) {
+            LanguageHelper.showLanguagePicker(this)
             return true
         }
         return super.onOptionsItemSelected(item)
@@ -183,6 +193,12 @@ class ListsActivity : BaseActivity() {
         binding.tvPendingCount.text = pendingCount.toString()
         binding.tvCompletedCount.text = completedCount.toString()
         binding.tvTotalLists.text = lists.size.toString()
+
+        binding.labelPending.text = getString(R.string.pending_tasks_label)
+        binding.labelCompleted.text = getString(R.string.completed_tasks_label)
+        binding.labelTotal.text = getString(R.string.total_lists_label)
+        binding.tvHeaderTitle.text = getString(R.string.home_title)
+        binding.tvHeaderDesc.text = getString(R.string.home_description)
     }
 
     private fun saveLists() {

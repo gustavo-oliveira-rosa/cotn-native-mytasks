@@ -1,166 +1,170 @@
 [
     {
-        "merged": "mytasks.cotn.app-merged_res-34:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "mytasks.cotn.app-main-36:/mipmap-xxhdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-merged_res-34:\\drawable_ic_check_circle.xml.flat",
+        "source": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-main-36:\\drawable\\ic_check_circle.xml"
     },
     {
-        "merged": "mytasks.cotn.app-merged_res-34:/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "mytasks.cotn.app-main-36:/mipmap-hdpi/ic_launcher.png"
+        "merged": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-merged_res-34:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-main-36:\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "mytasks.cotn.app-merged_res-34:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "mytasks.cotn.app-main-36:/mipmap-xhdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-merged_res-34:\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-main-36:\\mipmap-xxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "mytasks.cotn.app-merged_res-34:/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "mytasks.cotn.app-main-36:/mipmap-xhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-merged_res-34:\\drawable-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-main-36:\\drawable-xxxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "mytasks.cotn.app-merged_res-34:/drawable-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "mytasks.cotn.app-main-36:/drawable-xxhdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-merged_res-34:\\menu_menu_help.xml.flat",
+        "source": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-main-36:\\menu\\menu_help.xml"
     },
     {
-        "merged": "mytasks.cotn.app-merged_res-34:/drawable_ic_poll.xml.flat",
-        "source": "mytasks.cotn.app-main-36:/drawable/ic_poll.xml"
+        "merged": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-merged_res-34:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-main-36:\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "mytasks.cotn.app-merged_res-34:/layout_item_list.xml.flat",
-        "source": "mytasks.cotn.app-main-36:/layout/item_list.xml"
+        "merged": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-merged_res-34:\\xml_locales_config.xml.flat",
+        "source": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-main-36:\\xml\\locales_config.xml"
     },
     {
-        "merged": "mytasks.cotn.app-merged_res-34:/layout_activity_main.xml.flat",
-        "source": "mytasks.cotn.app-main-36:/layout/activity_main.xml"
+        "merged": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-merged_res-34:\\drawable_background_gradient.xml.flat",
+        "source": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-main-36:\\drawable\\background_gradient.xml"
     },
     {
-        "merged": "mytasks.cotn.app-merged_res-34:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "mytasks.cotn.app-main-36:/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-merged_res-34:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-main-36:\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "mytasks.cotn.app-merged_res-34:/drawable-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "mytasks.cotn.app-main-36:/drawable-xhdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-merged_res-34:\\layout_item_list.xml.flat",
+        "source": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-main-36:\\layout\\item_list.xml"
     },
     {
-        "merged": "mytasks.cotn.app-merged_res-34:/drawable_ic_add.xml.flat",
-        "source": "mytasks.cotn.app-main-36:/drawable/ic_add.xml"
+        "merged": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-merged_res-34:\\drawable-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-main-36:\\drawable-xhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "mytasks.cotn.app-merged_res-34:/drawable-hdpi_ic_launcher_foreground.png.flat",
-        "source": "mytasks.cotn.app-main-36:/drawable-hdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-merged_res-34:\\drawable_ic_add.xml.flat",
+        "source": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-main-36:\\drawable\\ic_add.xml"
     },
     {
-        "merged": "mytasks.cotn.app-merged_res-34:/drawable_ic_edit.xml.flat",
-        "source": "mytasks.cotn.app-main-36:/drawable/ic_edit.xml"
+        "merged": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-merged_res-34:\\drawable_icon_bg.xml.flat",
+        "source": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-main-36:\\drawable\\icon_bg.xml"
     },
     {
-        "merged": "mytasks.cotn.app-merged_res-34:/drawable_icon_bg.xml.flat",
-        "source": "mytasks.cotn.app-main-36:/drawable/icon_bg.xml"
+        "merged": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-merged_res-34:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-main-36:\\layout\\activity_main.xml"
     },
     {
-        "merged": "mytasks.cotn.app-merged_res-34:/menu_menu_help.xml.flat",
-        "source": "mytasks.cotn.app-main-36:/menu/menu_help.xml"
+        "merged": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-merged_res-34:\\drawable_ic_edit.xml.flat",
+        "source": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-main-36:\\drawable\\ic_edit.xml"
     },
     {
-        "merged": "mytasks.cotn.app-merged_res-34:/xml_locales_config.xml.flat",
-        "source": "mytasks.cotn.app-main-36:/xml/locales_config.xml"
+        "merged": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-merged_res-34:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-main-36:\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "mytasks.cotn.app-merged_res-34:/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "mytasks.cotn.app-main-36:/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-merged_res-34:\\drawable_ic_add_circle.xml.flat",
+        "source": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-main-36:\\drawable\\ic_add_circle.xml"
     },
     {
-        "merged": "mytasks.cotn.app-merged_res-34:/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "mytasks.cotn.app-main-36:/mipmap-mdpi/ic_launcher.png"
+        "merged": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-merged_res-34:\\drawable_ic_playlist_add.xml.flat",
+        "source": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-main-36:\\drawable\\ic_playlist_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-merged_res-34:\\layout_activity_lists.xml.flat",
+        "source": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-main-36:\\layout\\activity_lists.xml"
+    },
+    {
+        "merged": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-merged_res-34:\\drawable-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-main-36:\\drawable-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-merged_res-34:\\layout_dialog_task_input.xml.flat",
+        "source": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-main-36:\\layout\\dialog_task_input.xml"
+    },
+    {
+        "merged": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-merged_res-34:\\layout_dialog_help.xml.flat",
+        "source": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-main-36:\\layout\\dialog_help.xml"
+    },
+    {
+        "merged": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-merged_res-34:\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-main-36:\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "mytasks.cotn.app-merged_res-34:/layout_activity_lists.xml.flat",
         "source": "mytasks.cotn.app-main-36:/layout/activity_lists.xml"
     },
     {
-        "merged": "mytasks.cotn.app-merged_res-34:/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "mytasks.cotn.app-main-36:/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-merged_res-34:\\drawable-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-main-36:\\drawable-hdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "mytasks.cotn.app-merged_res-34:/drawable_ic_check_circle.xml.flat",
-        "source": "mytasks.cotn.app-main-36:/drawable/ic_check_circle.xml"
+        "merged": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-merged_res-34:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-main-36:\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "mytasks.cotn.app-merged_res-34:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "mytasks.cotn.app-main-36:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-merged_res-34:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-main-36:\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "mytasks.cotn.app-merged_res-34:/drawable-mdpi_ic_launcher_foreground.png.flat",
-        "source": "mytasks.cotn.app-main-36:/drawable-mdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-merged_res-34:\\drawable_ic_poll.xml.flat",
+        "source": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-main-36:\\drawable\\ic_poll.xml"
     },
     {
-        "merged": "mytasks.cotn.app-merged_res-34:/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "mytasks.cotn.app-main-36:/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-merged_res-34:\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-main-36:\\mipmap-hdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "mytasks.cotn.app-merged_res-34:/layout_dialog_help.xml.flat",
-        "source": "mytasks.cotn.app-main-36:/layout/dialog_help.xml"
+        "merged": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-merged_res-34:\\drawable_ic_delete.xml.flat",
+        "source": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-main-36:\\drawable\\ic_delete.xml"
     },
     {
-        "merged": "mytasks.cotn.app-merged_res-34:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "mytasks.cotn.app-main-36:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-merged_res-34:\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-main-36:\\mipmap-xhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "mytasks.cotn.app-merged_res-34:/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "mytasks.cotn.app-main-36:/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-merged_res-34:\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-main-36:\\mipmap-mdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "mytasks.cotn.app-merged_res-34:/mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "mytasks.cotn.app-main-36:/mipmap-mdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-merged_res-34:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-main-36:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "mytasks.cotn.app-merged_res-34:/drawable_background_gradient.xml.flat",
-        "source": "mytasks.cotn.app-main-36:/drawable/background_gradient.xml"
+        "merged": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-merged_res-34:\\drawable-night_background_gradient.xml.flat",
+        "source": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-main-36:\\drawable-night\\background_gradient.xml"
     },
     {
-        "merged": "mytasks.cotn.app-merged_res-34:/drawable_ic_help.xml.flat",
-        "source": "mytasks.cotn.app-main-36:/drawable/ic_help.xml"
+        "merged": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-merged_res-34:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-main-36:\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "mytasks.cotn.app-merged_res-34:/drawable_ic_add_circle.xml.flat",
-        "source": "mytasks.cotn.app-main-36:/drawable/ic_add_circle.xml"
+        "merged": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-merged_res-34:\\layout_item_task.xml.flat",
+        "source": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-main-36:\\layout\\item_task.xml"
     },
     {
-        "merged": "mytasks.cotn.app-merged_res-34:/layout_item_task.xml.flat",
-        "source": "mytasks.cotn.app-main-36:/layout/item_task.xml"
+        "merged": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-merged_res-34:\\drawable-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-main-36:\\drawable-xxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "mytasks.cotn.app-merged_res-34:/drawable-night_background_gradient.xml.flat",
-        "source": "mytasks.cotn.app-main-36:/drawable-night/background_gradient.xml"
+        "merged": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-merged_res-34:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-main-36:\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "mytasks.cotn.app-merged_res-34:/mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "mytasks.cotn.app-main-36:/mipmap-hdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-merged_res-34:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-main-36:\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "mytasks.cotn.app-merged_res-34:/drawable-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "mytasks.cotn.app-main-36:/drawable-xxxhdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-merged_res-34:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-main-36:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "mytasks.cotn.app-merged_res-34:/drawable_ic_playlist_add.xml.flat",
-        "source": "mytasks.cotn.app-main-36:/drawable/ic_playlist_add.xml"
+        "merged": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-merged_res-34:\\drawable_ic_help.xml.flat",
+        "source": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-main-36:\\drawable\\ic_help.xml"
     },
     {
-        "merged": "mytasks.cotn.app-merged_res-34:/layout_dialog_task_input.xml.flat",
-        "source": "mytasks.cotn.app-main-36:/layout/dialog_task_input.xml"
-    },
-    {
-        "merged": "mytasks.cotn.app-merged_res-34:/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "mytasks.cotn.app-main-36:/mipmap-xxhdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "mytasks.cotn.app-merged_res-34:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "mytasks.cotn.app-main-36:/mipmap-anydpi-v26/ic_launcher_round.xml"
-    },
-    {
-        "merged": "mytasks.cotn.app-merged_res-34:/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "mytasks.cotn.app-main-36:/mipmap-hdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "mytasks.cotn.app-merged_res-34:/drawable_ic_delete.xml.flat",
-        "source": "mytasks.cotn.app-main-36:/drawable/ic_delete.xml"
+        "merged": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-merged_res-34:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\gusta\\.gradle\\daemon\\8.2\\mytasks.cotn.app-main-36:\\mipmap-xxxhdpi\\ic_launcher_round.png"
     }
 ]

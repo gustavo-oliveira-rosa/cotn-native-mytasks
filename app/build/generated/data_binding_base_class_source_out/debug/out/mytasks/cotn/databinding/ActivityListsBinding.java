@@ -26,6 +26,15 @@ public final class ActivityListsBinding implements ViewBinding {
   public final FloatingActionButton fab;
 
   @NonNull
+  public final TextView labelCompleted;
+
+  @NonNull
+  public final TextView labelPending;
+
+  @NonNull
+  public final TextView labelTotal;
+
+  @NonNull
   public final RecyclerView recyclerView;
 
   @NonNull
@@ -38,21 +47,35 @@ public final class ActivityListsBinding implements ViewBinding {
   public final TextView tvEmpty;
 
   @NonNull
+  public final TextView tvHeaderDesc;
+
+  @NonNull
+  public final TextView tvHeaderTitle;
+
+  @NonNull
   public final TextView tvPendingCount;
 
   @NonNull
   public final TextView tvTotalLists;
 
   private ActivityListsBinding(@NonNull CoordinatorLayout rootView,
-      @NonNull FloatingActionButton fab, @NonNull RecyclerView recyclerView,
-      @NonNull MaterialToolbar toolbar, @NonNull TextView tvCompletedCount,
-      @NonNull TextView tvEmpty, @NonNull TextView tvPendingCount, @NonNull TextView tvTotalLists) {
+      @NonNull FloatingActionButton fab, @NonNull TextView labelCompleted,
+      @NonNull TextView labelPending, @NonNull TextView labelTotal,
+      @NonNull RecyclerView recyclerView, @NonNull MaterialToolbar toolbar,
+      @NonNull TextView tvCompletedCount, @NonNull TextView tvEmpty, @NonNull TextView tvHeaderDesc,
+      @NonNull TextView tvHeaderTitle, @NonNull TextView tvPendingCount,
+      @NonNull TextView tvTotalLists) {
     this.rootView = rootView;
     this.fab = fab;
+    this.labelCompleted = labelCompleted;
+    this.labelPending = labelPending;
+    this.labelTotal = labelTotal;
     this.recyclerView = recyclerView;
     this.toolbar = toolbar;
     this.tvCompletedCount = tvCompletedCount;
     this.tvEmpty = tvEmpty;
+    this.tvHeaderDesc = tvHeaderDesc;
+    this.tvHeaderTitle = tvHeaderTitle;
     this.tvPendingCount = tvPendingCount;
     this.tvTotalLists = tvTotalLists;
   }
@@ -90,6 +113,24 @@ public final class ActivityListsBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.labelCompleted;
+      TextView labelCompleted = ViewBindings.findChildViewById(rootView, id);
+      if (labelCompleted == null) {
+        break missingId;
+      }
+
+      id = R.id.labelPending;
+      TextView labelPending = ViewBindings.findChildViewById(rootView, id);
+      if (labelPending == null) {
+        break missingId;
+      }
+
+      id = R.id.labelTotal;
+      TextView labelTotal = ViewBindings.findChildViewById(rootView, id);
+      if (labelTotal == null) {
+        break missingId;
+      }
+
       id = R.id.recyclerView;
       RecyclerView recyclerView = ViewBindings.findChildViewById(rootView, id);
       if (recyclerView == null) {
@@ -114,6 +155,18 @@ public final class ActivityListsBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.tvHeaderDesc;
+      TextView tvHeaderDesc = ViewBindings.findChildViewById(rootView, id);
+      if (tvHeaderDesc == null) {
+        break missingId;
+      }
+
+      id = R.id.tvHeaderTitle;
+      TextView tvHeaderTitle = ViewBindings.findChildViewById(rootView, id);
+      if (tvHeaderTitle == null) {
+        break missingId;
+      }
+
       id = R.id.tvPendingCount;
       TextView tvPendingCount = ViewBindings.findChildViewById(rootView, id);
       if (tvPendingCount == null) {
@@ -126,8 +179,9 @@ public final class ActivityListsBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityListsBinding((CoordinatorLayout) rootView, fab, recyclerView, toolbar,
-          tvCompletedCount, tvEmpty, tvPendingCount, tvTotalLists);
+      return new ActivityListsBinding((CoordinatorLayout) rootView, fab, labelCompleted,
+          labelPending, labelTotal, recyclerView, toolbar, tvCompletedCount, tvEmpty, tvHeaderDesc,
+          tvHeaderTitle, tvPendingCount, tvTotalLists);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

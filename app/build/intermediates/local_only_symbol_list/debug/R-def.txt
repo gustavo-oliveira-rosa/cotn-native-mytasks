@@ -23,6 +23,7 @@ drawable ic_playlist_add
 drawable ic_poll
 drawable icon_bg
 id action_help
+id action_language
 id btnDelete
 id btnEdit
 id btnPickDate
@@ -37,12 +38,17 @@ id etTaskTitle
 id fab
 id helpProgress
 id ivHelpIcon
+id labelCompleted
+id labelPending
+id labelTotal
 id recyclerView
 id tilTaskTitle
 id toolbar
 id tvCompletedCount
 id tvDueDate
 id tvEmpty
+id tvHeaderDesc
+id tvHeaderTitle
 id tvHelpBody
 id tvHelpStep
 id tvHelpTitle
@@ -83,6 +89,8 @@ string help_done
 string help_next
 string help_skip
 string help_step_of
+string home_description
+string home_title
 string list_deleted
 string list_hint
 string menu_help

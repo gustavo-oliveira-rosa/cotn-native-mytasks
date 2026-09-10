@@ -3159,6 +3159,7 @@ id action_context_bar
 id action_divider
 id action_help
 id action_image
+id action_language
 id action_menu_divider
 id action_menu_presenter
 id action_mode_bar
@@ -3341,6 +3342,9 @@ id item_touch_helper_previous_elevation
 id ivHelpIcon
 id jumpToEnd
 id jumpToStart
+id labelCompleted
+id labelPending
+id labelTotal
 id labeled
 id layout
 id left
@@ -3590,6 +3594,8 @@ id triangle
 id tvCompletedCount
 id tvDueDate
 id tvEmpty
+id tvHeaderDesc
+id tvHeaderTitle
 id tvHelpBody
 id tvHelpStep
 id tvHelpTitle
@@ -3899,6 +3905,8 @@ string help_next
 string help_skip
 string help_step_of
 string hide_bottom_view_on_scroll_behavior
+string home_description
+string home_title
 string icon_content_description
 string item_view_role_description
 string list_deleted

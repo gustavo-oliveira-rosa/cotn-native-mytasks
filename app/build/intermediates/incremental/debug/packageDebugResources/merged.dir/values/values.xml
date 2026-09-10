@@ -35,6 +35,8 @@
     <string name="help_next">Próximo</string>
     <string name="help_skip">Pular</string>
     <string name="help_step_of">Passo %1$d de %2$d</string>
+    <string name="home_description">Gerencie suas tarefas de forma simples</string>
+    <string name="home_title">Minhas Listas</string>
     <string name="list_deleted">Lista removida</string>
     <string name="list_hint">Nome da lista</string>
     <string name="menu_help">Como usar</string>

@@ -35,9 +35,9 @@ class MainActivity : BaseActivity() {
         setSupportActionBar(binding.toolbar)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
+        setupRecyclerView()
         setupFilterChips()
         loadTasks()
-        setupRecyclerView()
         binding.fab.setOnClickListener { showTaskDialog() }
         updateEmptyAndProgress()
     }
@@ -77,6 +77,11 @@ class MainActivity : BaseActivity() {
         return true
     }
 
+    override fun onPrepareOptionsMenu(menu: Menu): Boolean {
+        menu.findItem(R.id.action_language)?.title = LanguageHelper.getFlagEmoji(this)
+        return super.onPrepareOptionsMenu(menu)
+    }
+
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         if (item.itemId == R.id.action_help) {
             showHelpTour(
@@ -88,6 +93,10 @@ class MainActivity : BaseActivity() {
                     HelpStep(R.string.tour_task_4_title, R.string.tour_task_4_body, R.drawable.ic_poll)
                 )
             )
+            return true
+        }
+        if (item.itemId == R.id.action_language) {
+            LanguageHelper.showLanguagePicker(this)
             return true
         }
         return super.onOptionsItemSelected(item)
