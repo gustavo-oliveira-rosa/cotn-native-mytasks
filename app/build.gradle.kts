@@ -8,7 +8,7 @@ android {
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.mytasks"
+        applicationId = "com.sdbv"
         minSdk = 24
         targetSdk = 36
         versionCode = 2
@@ -19,10 +19,10 @@ android {
 
     signingConfigs {
         create("release") {
-            storeFile = file("../keystore/release.keystore")
-            storePassword = "1234567890"
-            keyAlias = "release-key"
-            keyPassword = "1234567890"
+            storeFile = file("../keystore/mytasks_new_release.keystore")
+            storePassword = "mytasks123"
+            keyAlias = "mytasks-key"
+            keyPassword = "mytasks123"
         }
     }
 
