@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "pomodoro.cotn.app-mergeDebugResources-32:/values-be/values-be.xml",
+            "outputFile": "mytasks.cotn.app-mergeDebugResources-32:/values-be/values-be.xml",
             "map": [
                 {
                     "source": "C:\\Users\\gusta\\.gradle\\caches\\transforms-3\\0689a9fd0de0e6fef5d369e599568f09\\transformed\\core-1.12.0\\res\\values-be\\values-be.xml",

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">My Tasks</string>
+    <string name="app_name">mytasks</string>
     <string name="choose_language">Escolha seu idioma</string>
     <string name="select">Selecionar</string>
     <string name="new_task">Nova tarefa</string>
@@ -49,4 +49,14 @@
     <string name="toast_task_created">Tarefa adicionada ✓</string>
     <string name="toast_task_updated">Tarefa atualizada ✓</string>
     <string name="toast_restored">Restaurado ✓</string>
+    <string name="pending_tasks_label">Tarefas Pendentes</string>
+    <string name="completed_tasks_label">Concluídas</string>
+    <string name="total_lists_label">Total de Listas</string>
+    <string name="view_tasks">Ver tarefas</string>
+    <string name="due_date">Data limite</string>
+    <string name="no_due_date">Sem data limite</string>
+    <string name="filter_all">Tudo</string>
+    <string name="filter_pending">Pendentes</string>
+    <string name="filter_completed">Concluídas</string>
+    <string name="sort_date">Data</string>
 </resources>

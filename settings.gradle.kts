@@ -14,5 +14,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Pomodoro"
+rootProject.name = "mytasks"
 include(":app")

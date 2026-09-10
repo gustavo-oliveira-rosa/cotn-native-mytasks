@@ -1,4 +1,4 @@
-pomodoro.cotn
+mytasks.cotn
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -1370,6 +1370,7 @@ color cardview_dark_background
 color cardview_light_background
 color cardview_shadow_end_color
 color cardview_shadow_start_color
+color delete
 color design_bottom_navigation_shadow_color
 color design_box_stroke_color
 color design_dark_default_color_background
@@ -1412,6 +1413,7 @@ color dim_foreground_disabled_material_dark
 color dim_foreground_disabled_material_light
 color dim_foreground_material_dark
 color dim_foreground_material_light
+color divider
 color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
@@ -1420,6 +1422,7 @@ color highlighted_text_material_dark
 color highlighted_text_material_light
 color hint
 color ic_launcher_background
+color icon_bg
 color m3_appbar_overlay_color
 color m3_assist_chip_icon_tint_color
 color m3_assist_chip_stroke_color
@@ -2089,6 +2092,7 @@ color secondary_text_default_material_dark
 color secondary_text_default_material_light
 color secondary_text_disabled_material_dark
 color secondary_text_disabled_material_light
+color surface
 color switch_thumb_disabled_material_dark
 color switch_thumb_disabled_material_light
 color switch_thumb_material_dark
@@ -3016,6 +3020,7 @@ drawable ic_mtrl_chip_close_circle
 drawable ic_playlist_add
 drawable ic_poll
 drawable ic_search_black_24
+drawable icon_bg
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
 drawable m3_bottom_sheet_drag_handle
@@ -3192,6 +3197,8 @@ id bounceEnd
 id bounceStart
 id btnDelete
 id btnEdit
+id btnPickDate
+id btnView
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3208,6 +3215,11 @@ id chain2
 id chains
 id checkbox
 id checked
+id chipAll
+id chipCompleted
+id chipGroupFilter
+id chipPending
+id chipSortDate
 id chronometer
 id circle_center
 id clear_text
@@ -3274,6 +3286,7 @@ id end
 id endToStart
 id enterAlways
 id enterAlwaysCollapsed
+id etTaskTitle
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -3556,6 +3569,7 @@ id textinput_helper_text
 id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
+id tilTaskTitle
 id time
 id title
 id titleDividerNoCustom
@@ -3573,14 +3587,18 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tvCompletedCount
+id tvDueDate
 id tvEmpty
 id tvHelpBody
 id tvHelpStep
 id tvHelpTitle
 id tvListName
+id tvPendingCount
 id tvProgress
 id tvTaskCount
 id tvTaskTitle
+id tvTotalLists
 id unchecked
 id uniform
 id unlabeled
@@ -3737,6 +3755,7 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout dialog_help
+layout dialog_task_input
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
 layout item_list
@@ -3858,7 +3877,9 @@ string character_counter_overflowed_content_description
 string character_counter_pattern
 string choose_language
 string clear_text_end_icon_content_description
+string completed_tasks_label
 string delete
+string due_date
 string edit
 string edit_list
 string edit_task
@@ -3870,6 +3891,9 @@ string error_required
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string filter_all
+string filter_completed
+string filter_pending
 string help_done
 string help_next
 string help_skip
@@ -3982,11 +4006,13 @@ string mtrl_timepicker_cancel
 string mtrl_timepicker_confirm
 string new_list
 string new_task
+string no_due_date
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string pending_tasks_label
 string progress_concluded
 string save
 string search_menu_title
@@ -3996,9 +4022,16 @@ string searchview_navigation_content_description
 string select
 string side_sheet_accessibility_pane_title
 string side_sheet_behavior
+string sort_date
 string status_bar_notification_info_overflow
 string task_deleted
 string task_hint
+string toast_list_created
+string toast_list_updated
+string toast_restored
+string toast_task_created
+string toast_task_updated
+string total_lists_label
 string tour_list_1_body
 string tour_list_1_title
 string tour_list_2_body
@@ -4014,6 +4047,7 @@ string tour_task_3_title
 string tour_task_4_body
 string tour_task_4_title
 string undo
+string view_tasks
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog

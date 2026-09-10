@@ -37,7 +37,7 @@
 25-->E:\cotn-native-mytasks\app\src\main\AndroidManifest.xml:9:9-45
 26        <activity
 26-->E:\cotn-native-mytasks\app\src\main\AndroidManifest.xml:10:9-17:20
-27            android:name="pomodoro.cotn.ListsActivity"
+27            android:name="mytasks.cotn.ListsActivity"
 27-->E:\cotn-native-mytasks\app\src\main\AndroidManifest.xml:11:13-42
 28            android:exported="true" >
 28-->E:\cotn-native-mytasks\app\src\main\AndroidManifest.xml:12:13-36
@@ -54,7 +54,7 @@
 34        </activity>
 35        <activity
 35-->E:\cotn-native-mytasks\app\src\main\AndroidManifest.xml:18:9-20:40
-36            android:name="pomodoro.cotn.MainActivity"
+36            android:name="mytasks.cotn.MainActivity"
 36-->E:\cotn-native-mytasks\app\src\main\AndroidManifest.xml:19:13-41
 37            android:exported="false" />
 37-->E:\cotn-native-mytasks\app\src\main\AndroidManifest.xml:20:13-37

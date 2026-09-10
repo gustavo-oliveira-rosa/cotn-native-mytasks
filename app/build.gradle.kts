@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "pomodoro.cotn"
+    namespace = "mytasks.cotn"
     compileSdk = 36
 
     defaultConfig {

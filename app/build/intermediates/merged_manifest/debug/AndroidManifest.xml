@@ -24,7 +24,7 @@
         android:localeConfig="@xml/locales_config"
         android:theme="@style/Theme.MyTasks" >
         <activity
-            android:name="pomodoro.cotn.ListsActivity"
+            android:name="mytasks.cotn.ListsActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -33,7 +33,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="pomodoro.cotn.MainActivity"
+            android:name="mytasks.cotn.MainActivity"
             android:exported="false" />
 
         <provider

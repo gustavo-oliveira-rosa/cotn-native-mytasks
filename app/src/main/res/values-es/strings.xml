@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">My Tasks</string>
+    <string name="app_name">mytasks</string>
     <string name="choose_language">Elige tu idioma</string>
     <string name="select">Seleccionar</string>
     <string name="new_task">Nueva tarea</string>
@@ -44,4 +44,14 @@
         <item quantity="one">%d tarea pendiente</item>
         <item quantity="other">%d tareas pendientes</item>
     </plurals>
+    <string name="pending_tasks_label">Pendientes</string>
+    <string name="completed_tasks_label">Completadas</string>
+    <string name="total_lists_label">Total Listas</string>
+    <string name="view_tasks">Ver tareas</string>
+    <string name="due_date">Fecha límite</string>
+    <string name="no_due_date">Sin fecha límite</string>
+    <string name="filter_all">Todo</string>
+    <string name="filter_pending">Pendientes</string>
+    <string name="filter_completed">Completadas</string>
+    <string name="sort_date">Fecha</string>
 </resources>

@@ -90,7 +90,7 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\gusta\.gradle\cach
 		ADDED from E:\cotn-native-mytasks\app\src\main\AndroidManifest.xml:5:9-35
 	android:theme
 		ADDED from E:\cotn-native-mytasks\app\src\main\AndroidManifest.xml:9:9-45
-activity#pomodoro.cotn.ListsActivity
+activity#mytasks.cotn.ListsActivity
 ADDED from E:\cotn-native-mytasks\app\src\main\AndroidManifest.xml:10:9-17:20
 	android:exported
 		ADDED from E:\cotn-native-mytasks\app\src\main\AndroidManifest.xml:12:13-36
@@ -106,7 +106,7 @@ category#android.intent.category.LAUNCHER
 ADDED from E:\cotn-native-mytasks\app\src\main\AndroidManifest.xml:15:17-77
 	android:name
 		ADDED from E:\cotn-native-mytasks\app\src\main\AndroidManifest.xml:15:27-74
-activity#pomodoro.cotn.MainActivity
+activity#mytasks.cotn.MainActivity
 ADDED from E:\cotn-native-mytasks\app\src\main\AndroidManifest.xml:18:9-20:40
 	android:exported
 		ADDED from E:\cotn-native-mytasks\app\src\main\AndroidManifest.xml:20:13-37
